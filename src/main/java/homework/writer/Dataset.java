@@ -10,5 +10,5 @@ import java.util.List;
 @Getter
 public class Dataset {
     private FileMetadata fileMetadata;
-    private List<Partition> partitions;
+    private List<PartitionChunk> partitions;
 }

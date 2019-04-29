@@ -1,7 +1,6 @@
 package homework;
 
 import homework.model.City;
-import homework.writer.ParquetWriter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -12,12 +11,12 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 public class ParquetFileTest {
 
-    @Test
-    public void shouldWriteFileMetadata() throws NoSuchFieldException, IOException {
-        ParquetWriter parquetWriter = new ParquetWriter();
-        List<City> cities = City.randomCities(10);
-        parquetWriter.writeParquet(cities.toArray());
-    }
+//    @Test
+//    public void shouldWriteFileMetadata() throws NoSuchFieldException, IOException {
+//        ParquetWriter parquetWriter = new ParquetWriter();
+//        List<City> cities = City.randomCities(10);
+//        parquetWriter.writeParquet(cities.toArray());
+//    }
 
 //    @Test
 //    public void shouldReadFileMetadata() throws IOException {
